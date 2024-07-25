@@ -4,7 +4,7 @@ PELICANOPTS=
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(BASEDIR)/docs
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
@@ -13,7 +13,7 @@ SSH_PORT=22
 SSH_USER=bituion
 SSH_TARGET_DIR=/bituion.github.io
 
-GITHUB_PAGES_BRANCH=main
+GITHUB_PAGES_BRANCH=master
 
 
 DEBUG ?= 0

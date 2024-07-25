@@ -1,12 +1,12 @@
-AUTHOR = 'whwh'
-SITENAME = 'whwh'
+AUTHOR = 'W.H.'
+SITENAME = 'W.H.'
 SITEURL = ""
 
 PATH = "content"
 
-TIMEZONE = 'GMT'
+TIMEZONE = 'Asia/shanghai'
 
-DEFAULT_LANG = 'Chinese (Simplified)'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -35,3 +35,5 @@ DEFAULT_PAGINATION = 3
 # RELATIVE_URLS = True
 
 OUTPUT_PATH = 'docs'
+
+THEME = "D:/virtualenvs/new/elegant"
