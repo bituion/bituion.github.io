@@ -1,6 +1,6 @@
 AUTHOR = 'W.H.'
 SITENAME = 'W.H.'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 
 PATH = "content"
 
