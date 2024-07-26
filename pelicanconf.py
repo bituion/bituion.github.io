@@ -1,6 +1,6 @@
 AUTHOR = 'W.H.'
 SITENAME = 'W.H.'
-SITEURL = ''
+SITEURL = '/docs'
 
 PATH = "content"
 
