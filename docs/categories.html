@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+ <!-- 加载MathJax -->
+ <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +26,7 @@
 
 <meta property="og:title" content="All Categories · W.H."/>
 <meta name="twitter:title" content="All Categories · W.H.">
-<meta property="og:url" content="/categories.html" />
+<meta property="og:url" content="http://localhost:8000/categories.html" />
 <meta property="og:description" content="All categories of the W.H. blog" />
 <meta name="twitter:description" content="All categories of the W.H. blog">
 <meta property="og:site_name" content="W.H." />
@@ -19,8 +34,8 @@
         <title>All Categories · W.H.
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/theme/css/elegant.prod.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="/theme/css/custom.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/elegant.prod.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/custom.css" media="screen">
 
 
 
@@ -35,19 +50,19 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="/"><span class=site-name>W.H.</span></a>
+                        <a class="brand" href="http://localhost:8000/"><span class=site-name>W.H.</span></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav pull-right top-menu">
                                 <li >
                                     <a href=
-                                       "/"
+                                       http://localhost:8000
                                     >Home</a>
                                 </li>
-                                <li ><a href="/pages/about.html">About</a></li>
-                                <li  class="active"><a href="/categories.html">Categories</a></li>
-                                <li ><a href="/tags.html">Tags</a></li>
-                                <li ><a href="/archives.html">Archives</a></li>
-                                <li><form class="navbar-search" action="/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                                <li ><a href="http://localhost:8000/pages/about.html">About</a></li>
+                                <li  class="active"><a href="http://localhost:8000/categories.html">Categories</a></li>
+                                <li ><a href="http://localhost:8000/tags.html">Tags</a></li>
+                                <li ><a href="http://localhost:8000/archives.html">Archives</a></li>
+                                <li><form class="navbar-search" action="http://localhost:8000/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                             </ul>
                         </div>
                     </div>
@@ -59,7 +74,7 @@
                     <div class="span10">
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="/categories.html">All Categories</a></h1>
+    <h1><a href="http://localhost:8000/categories.html">All Categories</a></h1>
     </header>
 </div>
 
@@ -69,19 +84,19 @@
         <div class="accordion" id="accordion2">
             <div class="accordion-group">
                 <div class="accordion-heading">
-                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#python-ref">
-                        Python<span>1</span>
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#jia-jiao-ref">
+                        家教<span>1</span>
                     </a>
                 </div>
-                <div id="python-ref" class="accordion-body collapse">
+                <div id="jia-jiao-ref" class="accordion-body collapse">
                     <div class="accordion-inner">
                         <ul class="list-articles-category">
                             <li itemscope>
-                                <time itemprop="dateCreated" datetime="2010-12-03T10:20:00+08:00">
-                                    周五 03 十二月 2010
+                                <time itemprop="dateCreated" datetime="2024-07-26T00:00:00+08:00">
+                                    周五 26 七月 2024
                                 </time>
-                                    <a href="/my-super-post.html">
-                                        标题标题
+                                    <a href="http://localhost:8000/ce-shi-wen-dang.html">
+                                        测试文档
                                     </a>
                             </li>
                         </ul>
@@ -90,19 +105,19 @@
             </div>
             <div class="accordion-group">
                 <div class="accordion-heading">
-                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#yeah-ref">
-                        yeah<span>1</span>
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#wen-yi-ref">
+                        文艺<span>1</span>
                     </a>
                 </div>
-                <div id="yeah-ref" class="accordion-body collapse">
+                <div id="wen-yi-ref" class="accordion-body collapse">
                     <div class="accordion-inner">
                         <ul class="list-articles-category">
                             <li itemscope>
-                                <time itemprop="dateCreated" datetime="2010-10-03T10:20:00+08:00">
-                                    周日 03 十月 2010
+                                <time itemprop="dateCreated" datetime="2019-07-26T00:00:00+08:00">
+                                    周五 26 七月 2019
                                 </time>
-                                    <a href="/my-super-post2.html">
-                                        第一篇文章
+                                    <a href="http://localhost:8000/wu-ti-shi.html">
+                                        无题诗
                                     </a>
                             </li>
                         </ul>
